@@ -1,15 +1,5 @@
 from turtle import *
 
-# Configurations
-pencolor("white")
-bgcolor("black")
-speed(0)
-ht()
-lt(90)
-pu()
-goto(0, -250)
-pd()
-
 def generate(axiom, rule, iterations):
   s = axiom
   for i in range(iterations):
